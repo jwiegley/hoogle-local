@@ -72,6 +72,13 @@ data-checked
 data-default
 data-default-class
 data-fix
+diagrams
+diagrams-contrib
+diagrams-builder
+diagrams-core
+diagrams-svg
+diagrams-lib
+diagrams-graphviz
 directory
 distributive
 dlist
@@ -211,6 +218,7 @@ scientific
 scotty
 semigroupoids
 semigroups
+semiring-simple
 servant
 servant-blaze
 servant-client
@@ -274,6 +282,7 @@ x509-store
 x509-system
 yaml
 z3
+z3cat
 zippers
 zlib
 
