@@ -45,6 +45,7 @@ categories
 cereal
 cereal-conduit
 charset
+checkers
 chunked-data
 classy-prelude
 classy-prelude-conduit
@@ -73,7 +74,6 @@ data-default
 data-default-class
 data-fix
 diagrams
-diagrams-contrib
 diagrams-builder
 diagrams-core
 diagrams-svg
@@ -101,12 +101,12 @@ fingertree
 fmlist
 foldl
 free
-free-functors
+# free-functors
 free-vl
 freer-effects
 fsnotify
 fuzzcheck
-ghc-datasize
+# ghc-datasize
 ghc-paths
 graphviz
 groups
@@ -154,7 +154,7 @@ list-t
 logging
 logict
 machinecell
-machines
+# machines
 megaparsec
 mime-mail
 mime-types
@@ -177,7 +177,7 @@ newtype
 numbers
 operational
 optparse-applicative
-pandoc
+# pandoc
 parallel
 parallel-io
 parsec
@@ -226,9 +226,10 @@ servant-docs
 servant-foreign
 servant-js
 servant-server
-# shake
+shake
 shakespeare
 shelly
+silently
 simple-reflect
 singletons
 smallcheck
@@ -277,13 +278,12 @@ vector
 void
 wai
 warp
+weigh
 x509
 x509-store
 x509-system
 yaml
 z3
-z3cat
 zippers
 zlib
-
 ]
