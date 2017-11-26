@@ -1,5 +1,5 @@
-haskellPackages:
-with haskellPackages; [
+pkgs: haskellPackages:
+with pkgs.haskell.lib; with haskellPackages; [
 
 Boolean
 HTTP
@@ -73,6 +73,7 @@ data-checked
 data-default
 data-default-class
 data-fix
+derive-storable
 diagrams
 diagrams-builder
 diagrams-core
@@ -118,6 +119,7 @@ haskell-lexer
 haskell-src
 haskell-src-exts
 here
+hmatrix
 hslogger
 hspec
 hspec-expectations
@@ -130,6 +132,7 @@ http-client-tls
 http-date
 http-media
 http-types
+interpolate
 io-memoize
 io-storage
 io-streams
@@ -154,7 +157,7 @@ list-t
 logging
 logict
 machinecell
-# machines
+machines
 megaparsec
 mime-mail
 mime-types
@@ -177,7 +180,7 @@ newtype
 numbers
 operational
 optparse-applicative
-# pandoc
+pandoc
 parallel
 parallel-io
 parsec
@@ -275,6 +278,7 @@ unix-compat
 unordered-containers
 uuid
 vector
+vector-sized
 void
 wai
 warp
